@@ -5,8 +5,12 @@ img {
 body {
     text-align: center;
     font-size: 200%;
-    font-family: "Calibri"
+    font-family: "Comic Sans MS"
+}
+h1 {
+    color: purple;
+    font-family: "Comic Sans MS"
 }
 .wink {
-    width: 300px;
+    width: 200px;
 }
