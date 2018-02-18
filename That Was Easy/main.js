@@ -3,3 +3,11 @@ function sayThatWasEasy() {
     thatWasEasy.play();
 }
 $("#easy").on("click", sayThatWasEasy);
+$(document).keypress(delegateKeypress);
+
+function delegateKeypress(event) {
+    console.log(event.charCode);
+    if (event.charCode == 32) {
+        $("#easy").trigger("click");
+  }
+}
