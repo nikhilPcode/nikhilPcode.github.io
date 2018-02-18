@@ -1,0 +1,109 @@
+html { 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family:"Garamond";
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+   position: relative;
+    float: left;
+    
+}
+li a,
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+body{
+    font-family: "Argentum";
+}
+.gun {
+    height:200px;
+    width:300px;
+    display: block;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    float: inherit;
+
+
+    margin-bottom: 20px;
+}
+
+.awareness{
+    float: left;
+    width: 150px;
+    border: 10px;
+    border-color: coral;
+    padding: 0px;
+    margin: 0px;
+    height:auto;
+    position: absolute;
+    top: 0px;
+    
+}
+
+.search {
+    float: right;
+    width: 150px;
+    border: 10px gray;
+    padding: 0px;
+    margin: 0px;
+    height:auto;
+    position: absolute;
+    left: 1075px;
+    top: 0px;
+    
+}
+
+.parallax {
+    /* The image used */
+    background-image: url(charityorange.png);
+    opacity: .7;
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    color: rgb(16,16,16);
+    font-size: 100px;
+    text-align:center;
+    height: 5em;
+    line-height: 5em;
+    font-family: Argentum;
+}
+
+#charities{
+    padding-left: 35px;
+}
+
+          
+     
+
+    
+    
+    
+}
+
+@font-face {
+    font-family: Argentum;
+    src: url(hinted-ArgentumSans-ExtraLight.ttf);
+}

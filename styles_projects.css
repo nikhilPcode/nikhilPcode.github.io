@@ -1,0 +1,183 @@
+#article{
+    padding-top: 20px;
+    text-align: center;
+    height:auto;
+    width:550px;
+    border:3px solid #ccc;
+    font:16px/26px Georgia, Garamond, Serif;
+    font-family: Argentum;
+    overflow:auto;
+    margin-left: 25px;
+   
+    float:left;
+    
+}
+.gun {
+    height:200px;
+    width:300px;
+    display: block;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    float: inherit;
+
+
+    margin-bottom: 20px;
+}
+
+.awareness{
+    float: left;
+    width: 150px;
+    border: 10px;
+    border-color: coral;
+    padding: 0px;
+    margin: 0px;
+    height:auto;
+    position: absolute;
+    top: 0px;
+    
+}
+#article2{
+    padding-top: 20px;
+    text-align: center;
+    height:400px;
+    width:550px;
+    border:3px solid #ccc;
+    font:16px/26px Georgia, Garamond, Serif;
+    font-family: Argentum;
+    overflow:auto;
+    margin: 0px;
+    color: Black; 
+    float:right;
+    
+}
+
+.search {
+    font-family: Argentum;
+    float: right;
+    width: 150px;
+    border: 10px gray;
+    padding: 0px;
+    margin: 0px;
+    height:auto;
+    position: absolute;
+    left: 1075px;
+    top: 0px;
+    
+}
+
+
+.parallax {
+    /* The image used */
+    background-image: url("https://wearorange.org/wp-content/uploads/2016/04/0416-ORANGEDOrangeBackgroundImage-1366x800.png");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    color:white;
+    font-size: 100px;
+    text-align:center;
+    height: 5em;
+    line-height: 5em;
+    
+    font-family: Argentum;
+    
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+   position: relative;
+    float: left;
+}
+
+
+
+li a,
+.dropbtn {
+    font-family: Argentum;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#Charities{
+    background-color: #333;
+    color: White;
+    border: none;
+    text-align: center;
+}
+#Home{
+    background-color: #333;
+    color: white;
+    border: none;
+    text-align: center;
+}
+#Projects{
+    background-color: #333;
+    color: white;
+    border: none;
+    text-align: center;
+}
+#Info{
+    background-color: #333;
+    color: white;
+    border: none;
+    text-align: center;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100 px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-family: Argentum;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+h1{
+    font-family: Argentum;
+}
+
+@font-face {
+    font-family: Argentum;
+    src: url(hinted-ArgentumSans-ExtraLight.ttf);
+}
